@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int nodes, edges, i,j,k,v,Front=0, Rare=0;
+    cout<<"Enter number of nodes: ";
+    cin>>nodes;
+
+    int g[nodes][nodes],visited[nodes],visit[nodes], Queue[nodes];
+
+    for(i=0;i<nodes;i++)
+    {
+        for(j=0;j<nodes;j++)
+        {
+            g[i][j]=0;
+        }
+    }
+
+    for(i=0;i<nodes;i++)
+    {
+        visit[i]=0;
+        visited[i]=0;
+        Queue[i]=0;
+    }
+
+    cout<<"Enter number of edges: ";
+    cin>>edges;
+    for(k=0;k<edges;k++)
+    {
+        cout<<"Enter two nodes for edge "<<k+1<<" : ";
+        cin>>i>>j;
+        g[i][j]=g[j][i]=1;
+    }
+    cout<<"Printing graph: "<<endl;
+    for(i=0;i<nodes;i++)
+    {
+        for(j=0;j<nodes;j++)
+        {
+            cout<<g[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+
+    cout<<endl<<"Implementing BFS"<<endl<<endl;
+    cout<<"Enter starting node: ";
+    cin>>v;
+    cout<<v<<" ";
+    k=1;
+    visited[v]=1;
+
+    while(k<nodes)
+    {
+       for(j=0;j<nodes;j++)
+       {
+           if(g[v][j]==1 && visited[j]!=1 && visit[j]!=1)
+           {
+              visit[j]= 1;
+              Queue[Rare++]=j;
+           }
+       }
+       v=Queue[Front++];
+       cout<<v<<" ";
+       k++;
+       visited[v]=1;
+       visit[v]=0;
+    }
+}

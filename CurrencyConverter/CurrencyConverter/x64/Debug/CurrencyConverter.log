@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(58,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(64,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(71,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(92,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(98,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(105,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(124,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(130,28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(137,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(156,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(165,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Mainul\source\repos\CurrencyConverter\CurrencyConverter\main.cpp(174,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CurrencyConverter.vcxproj -> C:\Users\Mainul\source\repos\CurrencyConverter\x64\Debug\CurrencyConverter.exe
